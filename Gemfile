@@ -45,6 +45,7 @@ group :development, :test do
   gem "webmock"
   gem "simplecov"
   gem "csv"
+  gem 'rack-cors'
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 end
 
