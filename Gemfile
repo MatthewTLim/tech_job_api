@@ -46,6 +46,7 @@ group :development, :test do
   gem "simplecov"
   gem "csv"
   gem 'rack-cors'
+  gem 'factory_bot'
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 end
 

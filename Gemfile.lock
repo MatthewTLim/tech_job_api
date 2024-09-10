@@ -86,6 +86,8 @@ GEM
     diff-lcs (1.5.1)
     docile (1.4.0)
     erubi (1.13.0)
+    factory_bot (6.5.0)
+      activesupport (>= 5.0.0)
     faraday (2.10.0)
       faraday-net_http (>= 2.0, < 3.2)
       logger
@@ -242,6 +244,7 @@ DEPENDENCIES
   bootsnap
   csv
   debug
+  factory_bot
   faraday
   jsonapi-serializer
   pg (~> 1.1)
