@@ -48,6 +48,7 @@ group :development, :test do
   gem 'rack-cors'
   gem 'factory_bot_rails'
   gem 'faker'
+  gem 'pry'
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 end
 
