@@ -5,7 +5,11 @@ class JobsController < ApplicationController
   end
 
   def show
-    @job = Job.find(params[:id])
-    render json: @job
+    @job = Job.find_by(id: params[:id])
+    unless @job
+      render json: { error: 'Job not found' }, status: :not_found
+    else
+      render json: @job
+    end
   end
 end
